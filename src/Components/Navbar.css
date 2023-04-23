@@ -1,0 +1,117 @@
+nav{
+    width : 100vw;
+    height : 5rem;
+    background: #002147d6;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: hidden;
+    gap: 3rem;
+}
+
+.logobox{
+    width: 95%;
+    margin: 1rem auto;    
+    /* border: 2px solid white; */
+    background-image: url("../Assets/Images/Podcast\ Logo.jpeg");
+    height: 8rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sidenav{
+    width: 20%;
+    background: #002147;
+    /* background: #000; */
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.auth-btn{
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 3rem;
+}
+
+.a-btn{
+    border-radius: 5rem !important;
+    font-weight: 600 !important;
+}
+
+
+.login{
+
+    border: 2px solid #B0E0E6 !important;    
+    color: #B0E0E6 !important;
+}
+
+.signup{
+    background: #B0E0E6 !important;
+    color: #002147 !important;
+}
+
+.searchbar{
+    width: 25rem;
+    background: black;
+    display: flex;
+    gap: 0.1rem;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.searchbar input{
+    width: 85%;
+    border: none;
+    border-radius: 0;
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+}
+
+.searchbar input:focus{
+    border: none !important;
+    outline: 0;
+    box-shadow: none;
+}
+
+.searchbar input:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+
+.searchbar input:focus::-moz-placeholder{
+    opacity: 0;
+}
+
+.searchbar input:focus::-ms-placeholder{
+    opacity: 0;
+}
+
+.searchbar Button{
+    background: yellow;
+    color: #002147;
+    border: none;
+    border-radius: 0;
+    width:0.5rem !important;
+}
+
+.searchbar Button:hover{
+    background: white;
+}
+
+.nav-menu{
+    margin: 5rem 1rem !important;
+}
+
+.nav-menu .listItem{
+    padding: 0.7rem 1rem;
+}
+
+.nav-menu .listItem .avatar{
+    background-color: #ebe7d958 !important;
+}
